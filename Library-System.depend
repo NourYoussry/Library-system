@@ -1,0 +1,72 @@
+# depslib dependency file v1.0
+1514065386 source:d:\learn\c_toutorials\projects\library-system\book_action.c
+	"book_action.h"
+	<stdlib.h>
+	<stdio.h>
+	<windows.h>
+	"validation.h"
+
+1514064493 d:\learn\c_toutorials\projects\library-system\book_action.h
+
+1513966065 d:\learn\c_toutorials\projects\library-system\validation.h
+	"book_action.h"
+
+1514065507 source:d:\learn\c_toutorials\projects\library-system\main.c
+	<stdio.h>
+	<stdlib.h>
+	"navigation.h"
+	<string.h>
+	"time.h"
+
+1514065761 d:\learn\c_toutorials\projects\library-system\navigation.h
+	"book_action.h"
+	"members.h"
+	"borrowing.h"
+	"validation.h"
+	<windows.h>
+
+1513926650 d:\learn\c_toutorials\projects\library-system\members.h
+
+1514057631 d:\learn\c_toutorials\projects\library-system\borrowing.h
+	"book_action.h"
+
+1514064118 source:d:\learn\c_toutorials\projects\library-system\members.c
+	"members.h"
+	<stdlib.h>
+	<stdio.h>
+	<windows.h>
+	"validation.h"
+
+1514058082 source:d:\learn\c_toutorials\projects\library-system\validation.c
+	<stdbool.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<math.h>
+	<ctype.h>
+	"validation.h"
+
+1514065315 source:d:\learn\c_toutorials\projects\library-system\borrowing.c
+	"borrowing.h"
+	<stdlib.h>
+	<stdio.h>
+	<windows.h>
+	<time.h>
+	"validation.h"
+	"members.h"
+
+1514060435 source:d:\learn\c_toutorials\projects\library-system\files.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"borrowing.h"
+	"members.h"
+	"book_action.h"
+	"files.h"
+
+1514025324 d:\learn\c_toutorials\projects\library-system\files.h
+	"borrowing.h"
+	"members.h"
+	"book_action.h"
+
